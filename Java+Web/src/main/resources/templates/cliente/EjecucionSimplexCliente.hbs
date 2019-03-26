@@ -1,0 +1,47 @@
+<html>
+<head>
+<form method="POST">
+	<title>Optimizador</title>
+    <link rel="stylesheet" type="text/css" href="/css/simplex.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	
+
+</head>
+
+<body>
+
+        <div class ="combo">
+		<h4>Ingrese el limite mensual </h4>
+		<div class="col-xs-2">
+        <input type="number"required" placeholder="Limite" class="form-control" name="limiteMensual">
+        </div>
+          <span class="input-group-btn">
+            <button class="btn btn-primary">
+              <span class="glyphicon glyphicon-search">
+              </span> Aceptar
+            </button>
+          </span>
+          </div>
+    
+   <div class="col-xs-12">
+	<table class="table table-dark">
+    <tr>
+      <th scope="col" class="align-top">Dispositivo</th>
+      <th id="consRec"scope="col" class="align-top">Consumo recomendado</th>
+    </tr>
+     </thead>
+  		<tbody>
+  	{{#each valoresOptimizados}}
+    	<tr>
+      		<td>{{nombreDispositivo}}</td>
+      		<td>{{valorOptimizado}}</td>
+    	</tr>
+    {{/each}}
+  	</tbody>
+</table>
+</div>
+
+</body>
+</html>
+{{>layout.hbs}}

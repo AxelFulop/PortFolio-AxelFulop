@@ -1,0 +1,56 @@
+table, td, th {
+    		border: 1.5px solid white;
+		}
+
+table
+{
+width: 100%;
+float: none;
+border-radius: 5px;
+}
+
+
+.tabla{
+padding: 30px;
+margin: auto;
+}
+
+
+.form-control-clear {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+
+.top-buffer { margin-top: 60px;}
+
+
+
+
+.form-control-clear {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+
+.top-buffer { margin-top: 60px;}
+
+
+body{
+}
+
+td{
+    vertical-align: bottom;
+}
+
+th {
+    text-align: center;
+}
+
+.navbar-fixed-top.navbar-fixed-top {
+		display:block;
+}
+
+

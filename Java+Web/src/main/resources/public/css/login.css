@@ -1,0 +1,36 @@
+html{
+margin: 0px;
+padding: 0px;
+}
+
+.loginBox{
+border-radius: 4px;
+margin: 50px auto;
+witdth: 320px;
+background-color: transparent;
+}
+
+h1{ 
+color: #666;
+}
+
+p
+{
+font-family: Arial Black; 
+font-weight: bold; font-size: 30px; 
+background: #202020;
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+}
+
+.check {
+font-weight: bold;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+.

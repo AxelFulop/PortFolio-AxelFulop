@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+.navbar-fixed-top{
+display: none;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.active {
+background-color: #4CAF50;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+background-image: linear-gradient(to bottom right, white, GreenYellow);
+}
+
+.footer{
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+
+}
