@@ -3,6 +3,7 @@ PortFolio con todos los proyectos trabajados hasta el momento en el ambito perso
 
 ### Proyecto por lenguaje:
 [C](https://github.com/morsamatias/gdd/blob/master/estadoActual.md):Trabajo practico para la materia Sistemas Operativos.Su funcion es la de emular un sistemas operativo Linux y sus componentes: el FileSystem,Planificador,Memoria y la CPU.En este tp se debe tener buena comunicacion con el equipo de trabajo para el correcto funcionamiento de cada modulo de forma individual para luego al conectarse entre si formar un unico sistema performante.Se evaluan Sockets,manejo de memoria,listas,colas,estructuras,deadlock,semaforos,threads,manejo de archivos,sobre carga de la cpu, mapeo a memoria,entre otras cosas.
+
 [C++](https://github.com/morsamatias/gdd/blob/master/Extras/TP/Enunciado.pdf):Trabajo practico para la materia Sintaxis y Semantica de los lenguajes.El objetivo de este tp era simular el trabajo que hace el compilador de cualquier lenguaje en conjunto con el Parser y el Scanner.Se tenia un vector con cadenas el cual el mini compilador debia reconocer.Para esto se definieron valores centinelas , los cuales servian para determinar el fin de la cadena a leer y luego procesarla para determinar si esa palabra pertenecia a nuestro lenguaje o no.Se evaluan vectores,manejo de strings,creacion de funciones y registros,
 Automatas finitos y Automatas no finitos
 
